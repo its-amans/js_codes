@@ -1,0 +1,12 @@
+.test{
+    background-color:green;
+    border:2px solid black;
+    font-size:2rem;
+    color:white;
+}
+.text{
+    background-color:rgb(230, 134, 8);
+    border:2px solid black;
+    font-size:2rem;
+    color:white;
+}
