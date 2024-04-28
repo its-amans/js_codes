@@ -66,13 +66,13 @@
     align-items:center;
     height:20vh;
 }
-.finaldescision{
+.finaldescision {
     border-radius: 10px;
     font-size: 1.8rem;
     background-color: palevioletred;
     color: white;
-    height: 5vh;
-    width: 26vh;
+    height: 7vh;
+    width: 37vh;
     display: flex;
     justify-content: center;
     align-items: center;
