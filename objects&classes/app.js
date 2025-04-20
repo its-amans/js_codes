@@ -47,12 +47,16 @@ let swift=new ToyotaCar("maruti",23);
 //inheritence.//method overriding also work there
 class MarutiCar extends ToyotaCar{
     //if we derive constructor in the derived class then we must have to call the constructor of the parent class using super keyword.
-    constructor(color){
-        super();//To invoke super class constructor.
+    constructor(brand,color){
+        //if we want to pass some info to the constructor of the parent then it can be passed as the arg of super keyword.if not then simply can write super().
+        super(brand);//To invoke super class constructor.
         this.color=color;
     }
     func3(){
+        super().func1();//so we can acess parent func if req anywhwre like this.
+        //func1() is executed first then func3.
         console.log("func 3 of child is executed");
     }
 }
-let volvo=new MarutiCar("red");
+let volvo=new MarutiCar("vovo","red");
+console.log("aman");
